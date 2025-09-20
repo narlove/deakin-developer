@@ -3,10 +3,14 @@
 @import "../node_modules/bootstrap/scss/variables";
 
 $primary: $purple; // set the $primary variable
+$secondary: $purple-300;
+$teriary: $purple-700;
 
 // merge with existing $theme-colors map
 $theme-colors: map-merge($theme-colors, (
-  "primary": $primary
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $teriary
 ));
 
 // set changes
